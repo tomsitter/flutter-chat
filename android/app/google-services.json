@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "752701777375",
+    "project_id": "flutter-chat-8e07c",
+    "storage_bucket": "flutter-chat-8e07c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:752701777375:android:578216251ee3fa3694506a",
+        "android_client_info": {
+          "package_name": "com.tomsitter.flash_chat_flutter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "752701777375-gf9d6mqftle4tv1kevku1o423dc48aog.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDkpf936aZcW-yIGcomxBGZjoqfDub-w6c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "752701777375-gf9d6mqftle4tv1kevku1o423dc48aog.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
