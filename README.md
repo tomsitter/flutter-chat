@@ -1,19 +1,16 @@
-# flash_chat_flutter
+# Flutter Chat
 
-A cross-platform chat app using Firebase
+A messaging app built using Flutter and Firebase with authentication and Firestore.
 
-## Getting Started
+This app is based off the [Flash Chat app from LondonAppBrewery](https://github.com/londonappbrewery/flash-chat-flutter)
 
-This project is a starting point for a Flutter application.
+## Changes and Enhancements are:
+- Uses null Safety
+- Latest versions of Firebase authentication and cloud firestore
+- Implementation of stream functionality uses latest recommendation for Firebase docs
+- Adds SnackBars to display errors to user
+- Updated colour scheme
 
-A few resources to get you started if this is your first Flutter project:
+## Screenshots
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-
-
-<div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+<img src="https://i.imgur.com/tZjGN8h.mp4" width="400">

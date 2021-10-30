@@ -68,7 +68,7 @@ class _LoginScreenState extends State<LoginScreen> {
                   onChanged: (value) => {password = value}),
               SizedBox(height: 24.0),
               RoundedWideButton(
-                  color: Colors.lightBlueAccent,
+                  color: AppTheme.lightYellow,
                   text: 'Login',
                   onPressed: () async {
                     try {

@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import '../constants.dart';
+
 class MessageBubble extends StatelessWidget {
   final String sender;
   final String text;
@@ -22,7 +24,7 @@ class MessageBubble extends StatelessWidget {
             style: TextStyle(fontSize: 12.0, color: Colors.black54),
           ),
           Material(
-            color: isMe ? Colors.lightBlueAccent : Colors.white,
+            color: isMe ? AppTheme.darkYellow : Colors.white,
             elevation: 5.0,
             borderRadius: BorderRadius.only(
                 topLeft: isMe ? Radius.circular(30.0) : Radius.zero,

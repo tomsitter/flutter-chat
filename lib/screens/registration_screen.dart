@@ -66,7 +66,7 @@ class _RegistrationScreenState extends State<RegistrationScreen> {
                 height: 8.0,
               ),
               RoundedWideButton(
-                  color: Colors.blueAccent,
+                  color: AppTheme.darkYellow,
                   text: 'Register',
                   onPressed: () async {
                     try {

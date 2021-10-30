@@ -3,6 +3,7 @@ import 'package:flash_chat_flutter/widgets/rounded_wide_button.dart';
 import 'package:flutter/material.dart';
 import 'package:animated_text_kit/animated_text_kit.dart';
 
+import '../constants.dart';
 import 'login_screen.dart';
 
 class WelcomeScreen extends StatefulWidget {
@@ -28,7 +29,7 @@ class _WelcomeScreenState extends State<WelcomeScreen>
       vsync: this,
     );
     // animation = CurvedAnimation(parent: controller, curve: Curves.decelerate);
-    animation = ColorTween(begin: Colors.blueGrey, end: Colors.white)
+    animation = ColorTween(begin: AppTheme.poleBrown, end: Colors.white)
         .animate(controller);
 
     controller.forward();
@@ -69,7 +70,7 @@ class _WelcomeScreenState extends State<WelcomeScreen>
                   style: const TextStyle(
                     fontSize: 45.0,
                     fontWeight: FontWeight.w900,
-                    color: Colors.black54,
+                    color: AppTheme.poleBrown,
                   ),
                   child: AnimatedTextKit(
                     animatedTexts: [
@@ -85,12 +86,12 @@ class _WelcomeScreenState extends State<WelcomeScreen>
             ),
             SizedBox(height: 48.0),
             RoundedWideButton(
-              color: Colors.lightBlueAccent,
+              color: AppTheme.lightYellow,
               text: 'Login',
               onPressed: () => Navigator.pushNamed(context, LoginScreen.id),
             ),
             RoundedWideButton(
-              color: Colors.blueAccent,
+              color: AppTheme.darkYellow,
               text: 'Register',
               onPressed: () =>
                   Navigator.pushNamed(context, RegistrationScreen.id),

@@ -1,8 +1,13 @@
 import 'package:flutter/material.dart';
 
 class AppTheme {
+  static const Color lightYellow = Color(0xFFFFCE71);
+  static const Color darkYellow = Color(0xFFFFB357);
+  static const Color poleBrown = Color(0xFFCE857A);
+  static const Color cheekPink = Color(0xFFFF8E9E);
+
   static const sendButtonTextStyle = TextStyle(
-    color: Colors.lightBlueAccent,
+    color: cheekPink,
     fontWeight: FontWeight.bold,
     fontSize: 18.0,
   );
@@ -15,7 +20,7 @@ class AppTheme {
 
   static const messageContainerDecoration = BoxDecoration(
     border: Border(
-      top: BorderSide(color: Colors.lightBlueAccent, width: 2.0),
+      top: BorderSide(color: poleBrown, width: 2.0),
     ),
   );
 
@@ -28,11 +33,11 @@ class AppTheme {
       ),
     ),
     enabledBorder: OutlineInputBorder(
-      borderSide: BorderSide(color: Colors.blueAccent, width: 1.0),
+      borderSide: BorderSide(color: darkYellow, width: 1.0),
       borderRadius: BorderRadius.all(Radius.circular(32.0)),
     ),
     focusedBorder: OutlineInputBorder(
-      borderSide: BorderSide(color: Colors.blueAccent, width: 2.0),
+      borderSide: BorderSide(color: darkYellow, width: 2.0),
       borderRadius: BorderRadius.all(Radius.circular(32.0)),
     ),
   );
